@@ -1,0 +1,377 @@
+@media (max-width: 430px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .main__block-text {
+    font-size: 16px;
+  }
+
+  .main__block-title {
+    font-size: 21px;
+  }
+
+  .main__block-subtitle {
+    font-size: 18px;
+  }
+
+  .warranty__text {
+    font-size: 12px;
+  }
+  .warranty__item {
+    margin-right: 6px;
+  }
+
+  .num span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--disabled-color);
+  }
+
+  .num {
+    font-size: 24px;
+  }
+  .price p {
+    font-size: 12px;
+  }
+
+  .time__wrapper p {
+    font-size: 12px;
+  }
+
+  .time__box span {
+    font-size: 26px;
+  }
+
+  .btn {
+    padding: 14px 0 15px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .countdown {
+    gap: 28px;
+    height: 66px;
+    margin-bottom: 30px;
+  }
+
+  .countdown__title {
+    font-size: 16px;
+  }
+
+  .time__box span {
+    font-size: 26px;
+    padding: 8px 11px;
+  }
+
+  .counter p {
+    font-size: 12px;
+  }
+
+  .counter span {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .counter {
+    margin-bottom: 50px;
+  }
+
+  .parameter__name {
+    font-size: 16px;
+  }
+
+  .parameter__numbers {
+    font-size: 32px;
+  }
+
+  .parameters {
+    margin-bottom: 40px;
+  }
+
+  .main__title {
+    font-size: 26px;
+    margin-bottom: 102px;
+  }
+
+  .main__title span {
+    font-size: 32px;
+  }
+
+  .parameter__list {
+    max-width: 187px;
+    gap: 16px;
+  }
+
+  .parameter__list-item {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .parameter__list-item::before {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+  }
+
+  .info {
+    margin-bottom: 33px;
+  }
+
+  .air {
+    background-position: center top 34px;
+  }
+
+  .air .main__title {
+    margin-bottom: 128px;
+  }
+
+  .nozzles {
+    padding-bottom: 25px;
+  }
+
+  .nozzles .main__title {
+    padding-top: 50px;
+    margin-bottom: 220px;
+  }
+
+  .nozzles__text {
+    margin-bottom: 97px;
+    max-width: 220px;
+    font-size: 16px;
+  }
+
+  .complectation .main__title {
+    margin-bottom: 25px;
+  }
+
+  .complectation__img {
+    margin: 0 auto 30px;
+  }
+
+  .complectation__suptitle {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+
+  .complectation__inner {
+    padding-bottom: 17px;
+  }
+
+  .complectation__item {
+    padding-bottom: 15px;
+    /* justify-content: space-between; */
+  }
+
+  .complectation__item-title,
+  .complectation__item-text {
+    font-size: 16px;
+  }
+
+  /* .complectation__item-box{
+        max-width: 237px;
+    } */
+
+  .complectation__item-img {
+    width: 92px;
+    height: 69px;
+    transform: translateX(-16px);
+  }
+
+  .complectation .btn {
+    margin-bottom: 50px;
+  }
+
+  .video .main__title {
+    margin-bottom: 20px;
+  }
+
+  .instruction {
+    margin-bottom: 50px;
+  }
+
+  .catalog .main__title {
+    margin-bottom: 30px;
+  }
+
+  .product__card {
+    margin-bottom: 28px;
+  }
+
+  .product_card-title {
+    font-size: 16px;
+    padding: 7px 44px 7px 12px;
+  }
+
+  .product__card .btn {
+    margin: 12px;
+  }
+
+  .reviews .main__title {
+    margin: 50px 0 20px;
+  }
+
+  .dublicate .main__block-top {
+    padding-top: 66px;
+  }
+
+  .dublicate__countdown {
+    margin-bottom: 75px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 22px 0 22px;
+  }
+
+  /*-------Modal------*/
+  .close {
+    top: 4px;
+  }
+  .description__wrapper .product__card {
+    padding: 5px 0 12px;
+    margin: 45px 0 24px;
+  }
+
+  .description__wrapper .product__card img {
+    width: 102px;
+    height: 91px;
+    margin: 0 auto;
+  }
+  .product__card-box {
+    padding: 0 9px;
+  }
+  .product__card-box .product__card-title {
+    margin: 5px 0 9px;
+    font-size: 14px;
+  }
+  .choices[data-type*="select-one"] {
+    margin-bottom: 12px;
+  }
+
+  .choices__list--single {
+    display: inline-block;
+    padding: 9px 4px 11px 50px;
+    width: 100%;
+  }
+
+  .choices__list--dropdown .choices__item--selectable {
+    padding-right: 28px;
+    font-size: 12px;
+  }
+
+  .choices__item {
+    font-size: 12px;
+  }
+
+  .choices__list--dropdown .choices__item--selectable {
+    padding: 10px 13px 10px 10px;
+    font-size: 12px;
+  }
+  .form-group__box {
+    margin-bottom: 12px;
+  }
+
+  .form-group input,
+  .form-group .product {
+    height: 50px;
+    padding: 8px 8px 8px 60px;
+    margin-bottom: 12px;
+  }
+  input {
+    font-size: 12px; /* Зберігаємо той самий розмір шрифту на мобільних пристроях */
+    -webkit-transform: scale(1); /* Запобігає збільшенню розміру на iOS */
+    transform: scale(1); /* Запобігає збільшенню розміру на Android */
+  }
+
+  .form-group svg {
+    top: 38%;
+  }
+
+  .modal-content {
+    top: 50.5%;
+    margin: 0 16px;
+    padding: 0 16px 18px;
+    padding-bottom: 15px;
+    transform: translateY(-50%);
+    height: fit-content;
+    overflow-y: auto;
+  }
+  .modal__old-price span {
+    font-size: 16px;
+  }
+  .modal__old-price span::after {
+    top: 11px !important;
+    height: 1px;
+  }
+  .old__price span::after {
+    top: 15px;
+  }
+
+  .modal__text-1 {
+    font-size: 12px;
+  }
+
+  .modal__text-2 {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .choices[data-type*="select-one"]:after {
+    height: 6px;
+    width: 11px;
+    top: 50%;
+    left: 20px;
+  }
+
+  .dublicate__counter {
+    margin-bottom: 10px;
+  }
+
+  .agreement .main__title,
+  .agreement .main__title span {
+    font-size: 26px;
+  }
+  .agreement p {
+    font-size: 12px;
+  }
+  .thank__text {
+    padding-bottom: 80px;
+    font-size: 12px;
+  }
+  .thank__box-top svg {
+    bottom: -6px;
+  }
+  .unique__discount-title {
+    padding: 16px 0 16px;
+    font-size: 18px;
+  }
+  .unique__discount-title::before {
+    width: 22px;
+    height: 22px;
+    left: 25px;
+    top: 17px;
+  }
+
+  .unique__discount-title::after {
+    width: 22px;
+    height: 22px;
+    right: 25px;
+    top: 17px;
+  }
+
+  .product_card-img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* privat-policy */

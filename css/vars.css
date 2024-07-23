@@ -1,0 +1,26 @@
+/*-----Змінні-------*/
+:root {
+  --thematic-color: #ee38b1;
+  --thematic-active-color: #b40078;
+  --sale-color: #ff73d0;
+  --main-bg-color: #eaeaed;
+  --bg-black-color: #2c2c2c;
+  --text-color-black: #2c2c2c;
+  --text-color-white: #fff;
+  --disabled-color: #898989;
+  --modal-bg-color: #eaeaed;
+  --modal-text-color: #b5b5b5;
+  --border-color: rgba(181, 181, 181, 0.42);
+  --anim-duration: 4s;
+  --anim-speed: 0.65s;
+  --btn-border: 1px solid rgba(255, 255, 255, 0.2);
+  --btn-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.836);
+  --shine-degree: 120deg;
+  --shine-color: rgba(255, 255, 255, 0.699);
+  --shine-effect: linear-gradient(
+    var(--shine-degree),
+    transparent,
+    var(--shine-color),
+    transparent
+  );
+}
